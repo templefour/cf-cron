@@ -6,7 +6,7 @@ on:
       - master
     paths:
       - 'client/**'
-
+  workflow_dispatch:    # 👈 添加这一行，允许手动触发
 jobs:
   client:
     runs-on: ubuntu-latest
