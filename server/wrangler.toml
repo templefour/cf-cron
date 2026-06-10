@@ -9,12 +9,12 @@ compatibility_date = "2025-12-08"
 d1_databases = [{ binding = "DB", database_name = "cf-cron-db", database_id = "5c6d2ebc-9d3a-43b3-936c-8c12b2b3c7ea" }]
 
 # KV 命名空间绑定配置（用于任务缓存）
-kv_namespaces = [{ binding = "CACHE", id = "6ada4afc59d34fea9d0aac9bd30b6475" }]
+kv_namespaces = [{ binding = "CACHE", id = "99078bda61644add953dfa332ff0c450" }]
 
 # 环境变量配置
-[vars]
+#[vars]
 # JWT 密钥，用于用户认证
-SECRET_KEY = "123456"
+#SECRET_KEY = "123456"
 
 # 定时触发器配置
 [triggers]
